@@ -1,4 +1,4 @@
-name: My first module
+name: Hello World module
 core: 8.x
 package: custom
 type: module
