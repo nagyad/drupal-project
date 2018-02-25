@@ -1,0 +1,5 @@
+name: My first module
+core: 8.x
+package: custom
+type: module
+description: Tutorial module

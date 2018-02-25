@@ -1,0 +1,6 @@
+hellow_world:
+  path: /first_module/hello_world
+  defaults:
+    _controller: Drupal\first_module\Controller\HelloWorldController::hello_world
+  requirements:
+    _permission: access content
