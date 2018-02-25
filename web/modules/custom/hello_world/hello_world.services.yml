@@ -2,4 +2,6 @@ services:
 
   # Defines a simple service of which requires no parameter for its constructor.
   hello_world.world_generator:
-    class: Drupal\hellow_world\World
+    class: Drupal\hello_world\World\WorldGenerator
+    arguments:
+      - '@keyvalue'

@@ -14,6 +14,7 @@ class WorldGenerator {
 
   public function getHelloWorld() {
 
+    // Cache example.
     $key = 'hello_world';
     $store = $this->keyValueFactory->get('world');
 

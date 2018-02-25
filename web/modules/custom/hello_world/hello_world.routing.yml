@@ -1,6 +1,6 @@
 hello_world:
-  path: /hello_world/hello_world
+  path: /hello_world/hello
   defaults:
-    _controller: Drupal\hello_world\Controller\HelloWorldController::hello_world
+    _controller: Drupal\hello_world\Controller\HelloWorldController::hello
   requirements:
     _permission: access content

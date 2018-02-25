@@ -15,7 +15,7 @@ class HelloWorldController extends ControllerBase {
     $this->worldGenerator = $worldGenerator;
   }
 
-  public function hello_world() {
+  public function hello() {
     $hello_world = $this->worldGenerator->getHelloWorld();
 
     return new Response($hello_world);
