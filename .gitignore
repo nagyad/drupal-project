@@ -33,4 +33,4 @@
 build.properties
 composer.lock
 config/*
-/web/*
+web/*
